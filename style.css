@@ -206,6 +206,9 @@ font-size: 36px;
   height: 15rem;
   width:406.328px;
 }
+.my-store:hover{
+  opacity: 0.5;
+}
 /* ---------------------------------------------1234-box------------------------------------------------------------- */
 .conatiner-partition{
   height:3rem;
