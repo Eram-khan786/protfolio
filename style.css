@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200&family=Crimson+Text&family=EB+Garamond&family=Kalam:wght@300&family=Libre+Baskerville&family=Mate&family=Merriweather:wght@900&family=Poltawski+Nowy&family=Red+Hat+Display:wght@300&family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+
+}
+.flex{
+  display: flex;
+}
+:root{
+  --primary-color:#ffff;
+  --secondary-color:#f1f1f1;
+  --primary-text-color:#757575;
+  --tertiary-color:#616161;
+  --bgc-grey-color:#9e9e9e;
+  --min-grey-color:#CCCCCC;
+  --bacground-last:  #009688;
+
+}
+.flex{
+  display: flex;
+}
+.main-cantainer{
+  height: 100vh;
+  display: flex;
+}
+.left-box{
+  /* background-color: #fff; */
+  flex-basis: 20%;
+  /* box-shadow: #c74e4e; */
+  background-color: white;
+}
+
+
+
+/* ---------------------------------------------- LEFT CANTAINER STYLING-------------------------------------- */
+.left-box img{
+    height: 120.594px;
+    width: 120.594px;
+    margin: 1.4rem;
+    cursor: pointer;
+}
+#green1{
+  color: var(--bacground-last);
+}
+#green2{
+  color:var(--bacground-last);
+}
+
+.port{
+    font-size: 20px;
+    margin:1.4rem;
+    line-height: 20px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 15px;
+    line-height: 22.5px;
+    margin:1.4rem;
+
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.all-image{
+  height:2.5rem;
+  cursor: pointer;
+  margin-left:1.4rem;
+  
+}
+
+.all-image img{
+  height:1.1rem;
+  width: 1.1rem;
+  margin-top: 6px; 
+  margin-left: 4px; 
+  /* margin:1.4rem; */
+}
+.all-image p{
+  height:1.1rem;
+  font-size: 0.999rem;
+  margin: 0.5rem;
+
+}
+.all-image:hover{
+  background-color: var(--min-grey-color);
+}
+.nav-list-item:hover{
+  background-color: var(--min-grey-color);
+  cursor: pointer;
+}
+#all:hover{
+  background-color: #CCCCCC;
+  background-color: black;
+}
+.icons{
+  height:3rem;
+  margin-top: 20px;
+  margin-left:1.4rem;
+}
+.icons img{
+    height: 1.3rem;
+    width:1.3rem;
+    margin-top: 7px;
+    margin-inline: 4px;
+    border-radius: 22px;
+    
+
+}
+/* -----------------------------------Right-container-styling--------------------------- */
+
+.right-box{               /* Main Box */
+  background-color: var(--secondary-color);
+  flex-basis: 80%;
+  height: 500vh;
+}
+
+.right-margin-box{
+  height: 68%;
+  margin-inline: 20px;
+  /* border: 2px solid black; */
+}
+
+
+.navbar{
+  border-bottom: 5px solid #CCCCCC;
+  height: 8rem;
+
+}
+
+.navbar h1{
+font-family: Raleway, sans-serif;
+font-size: 36px;
+}
+
+.nav-list{
+  /* border: 2px solid green; */
+  height: 2.5rem;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.nav-list-item{
+  /* border: 2px solid blue; */
+  margin-inline: 5px;
+  height: 2.5rem;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+}
+
+.nav-list-item img{
+  height: 20px;
+  margin-right: 5px;
+}
+
+#filter{
+  padding-block: 6px;
+  background-color: var(--secondary-color);
+  width: 18%;
+}
+
+#all{
+  padding-block: 6px;
+  width: 20%;
+  text-align: center;
+  background-color: black;
+  color: var(--primary-color);
+}
+
+.nav-list:hover{
+  background-color:#757575(--);
+}
+/* ---------------------------------------------gallery----------------------------------------------------------- */
+.grid{
+  display: grid;
+}
+.my-store h4{
+  margin-left: 15px;
+}
+
+.my-store p{
+  margin-left: 15px;
+}
+.store-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  height:45rem;
+  gap:15px;
+  margin-block: 18px;
+  padding:4px;
+  background-color:FFFFF;
+}
+
+.my-store{
+  background-color:white;
+ border-radius: 5px;
+ height: 355.875px;
+ width: 406.328px;
+}
+.imgseen{
+  height: 15rem;
+  width:406.328px;
+}
+/* ---------------------------------------------1234-box------------------------------------------------------------- */
+.conatiner-partition{
+  height:3rem;
+  /* border:2px solid black; */
+  justify-content: center;
+  margin-block:3.1rem ;
+
+}
+.pagination-button{
+  /* border:2px solid red; */
+  height:2.7rem;
+  width:3rem;
+  text-align: center;
+  padding-top:10px ;
+  font-size: 0.9rem;
+}
+.pagination-button:hover{
+  background-color: black;
+  color: #fff;
+}
+#black-box{
+  background-color: black;
+  color: #fff;
+}
+/* -----------------------------avtars--------------------- */
+
+.two-avters{
+height: 385.922px;
+width: 700.484px;
+gap:15px;
+margin-bottom:3rem;
+}
+
+
+
+/* ---------------------------------ABOUT-ME---------------------------------- */
+.About-me h3{
+  margin-bottom: 1.5rem;
+}
+.About-me p{
+  color:#616161;
+  margin-bottom: 3rem;
+}
+
+
+/* -----------------------------------------technical-Skills----------------------------- */
+.technical-Skills h2{
+  margin-bottom: 1.6rem;
+}
+.technical-Skills p{
+  margin-bottom: 1rem;
+}
+.graphics{
+  /* border: 2px solid black; */
+  height: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.graph-bar{
+  padding: 0.7rem;
+}
+#graph-1{
+  flex-basis: 95%;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+}
+#graph-2{
+  flex-basis: 5%;
+  background-color: var(--bgc-grey-color);
+}
+
+#graph-3{
+  flex-basis: 85%;
+  background-color: var(--tertiary-color);
+  color: #fff;
+}
+#graph-4{
+  flex-basis: 15%;
+  background-color: var(--bgc-grey-color);
+}
+#graph-5{
+  flex-basis: 80%;
+  background-color: var(--tertiary-color);
+  color: #fff;
+}
+#graph-6{
+  flex-basis: 20%;
+  background-color: var(--bgc-grey-color);
+
+}
+/*------------------------------- Download ------------------------------*/
+.Download{
+  margin-top: 2rem;
+  height: 3rem;
+  /* border: 2px solid red; */
+  width:15rem;
+  background-color:var(--tertiary-color) ;
+  margin-bottom: 4rem;
+}
+.Download p{
+  color:white;
+  padding: 12px;
+  /* text-align: center; */
+}
+#download-img{
+  background-color: #fff;
+  border-radius: 25px;
+  height: 23px;
+  margin: 10px;
+  margin-left: 18px;
+  
+}
+
+.Download:hover{
+  background-color: var(--bgc-grey-color);
+  /* color: black; */
+}
+
+.Download p:hover{
+  color: black;
+}
+
+/* ------------------------ladder----------------- */
+#Heading{
+  font-size: 23px;
+  margin-bottom:1rem;
+}
+
+.ladder{
+  height:33rem ;
+  /* border: solid red; */
+  text-decoration: none;
+  /* background-color: var(--secondary-color); */
+}
+.ladder-element{
+  width:50%;
+  gap:15px;
+  background-color: white;
+  
+  
+}
+.ladder-element li{
+  list-style: none;
+  
+   
+} 
+.element{
+  height: 3.5rem;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 12px;
+  margin-right: 15px;
+}
+.Basic{
+  height: 6rem;
+  font-size: 25px;
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+#SI{
+  height: 7rem;
+
+
+}
+.font{
+  font-size: 2rem;
+}
+.per-month{
+  margin-top: 15px;
+}
+#sign{
+  margin-left: 11rem;
+  margin-top: 1rem;
+  height:5.5rem;
+  border: 1px solid black;
+  margin-top:0px;
+  margin-left: 0px;
+  margin-right: 15px;
+  
+}
+button{
+  /* margin: 23px; */
+  margin-left: 175px;
+  margin-top: 21px;
+  padding: 15px;
+  width: 7rem;
+  font-size: 16px;
+  background-color: #009688;
+
+}
+button:hover{
+  background-color:black;
+  color:white;
+}
+.ladder-element:hover{
+  opacity: 0.5;
+}
+
+#Pro{
+  background-color: #009688;
+  color: #fff;
+}
+
+/* -----------------------------------------------End-container---------------------------------------------------- */
+
+.end-container{
+    /* height: 500px; */
+    height: 580.5px;
+    border: 2px solid #9E9E9E;
+    background-color:#9E9E9E;
+}
+.end-margin{
+  /* border: 2px solid red; */
+  margin-inline: 16px;
+
+}
+.contact{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact p{
+     margin-top:20px ;
+     /* margin-left: 20px; */
+     font-size: 20px;
+     font-weight:  600;
+}
+.email-container{
+  height: 150px;
+  /* border: 2px solid black; */
+  border-bottom: 0.2px solid whitesmoke;
+  
+}
+/* -----------------------------------email---------------------------- */
+.imge img{
+    height: 3rem;
+    margin-left:178px ;
+    border-radius: 89px;
+    background-color: #fff;
+    margin-top: 12px;
+}
+.flex-box{
+  width: 50%;
+  /* border: 2px solid red; */
+  height: 102px;
+  background-color:#616161;
+
+}
+.details{
+  margin-top: 23px;
+}
+.flex-box p{
+  text-align: center;
+  color: #fff;
+}
+#US{
+  background-color: #009688;
+}
+.details input{
+  height: 2.5rem;
+  width: 100%;
+}
+.Send{
+  margin-top: 1.5rem;
+  height:3rem;
+  border: 2px solid black;
+  width:13rem;
+  background-color:black;
+  
+}
+.Send img{
+  height: 30px;
+  background-color: #fff;
+  border-radius: 22px;
+  margin-left: 12px;
+  margin-top: 6px;
+}
+.Send p{
+  color: white;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.Send:hover{
+  background-color: var(--min-grey-color);
+  
+}
+.Send p:hover{
+  color: black;
+}
+
+
+/* <!-- -------------------------------------------FOOTER------------------------------------------------ --> */
+.footer{
+  height: 290px;
+  border: 2px solid green;
+}
+
+.heading{
+  margin-top: 45px;
+  margin-inline: 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.footer-flex-box{
+  height: 290px;
+  width: 50%;
+  /* border: 2px solid red; */
+  background-color: var(--tertiary-color);
+}
+.footer-flex-box p{
+  margin-left: 20px;
+  margin-right: 100px;
+  color: white;
+}
+
+.heading-content{
+  margin-bottom: 20px;
+}
+
+.main-loIP{
+  height: 82px;
+  color: #fff;
+  /* border-bottom: 2px solid violet; */
+}
+.hum{
+  border-bottom: 2px solid var(--bgc-grey-color);
+}
+.main-loIP img{
+  height: 50px;
+  margin-left: 23px;
+  margin-top: 18px;
+}
+.blog-content{
+  margin-top: 15px;
+  margin-left: 8px;
+}
+.sed{
+  margin: 0px 0px;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 1rem;
+}
+.fgrid-item{
+  height: 22px;
+  /* border: 2px solid blueviolet; */
+  margin: 5px;
+  background-color: #CCCCCC;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 23px;
+}
+#hum{
+  background-color: black;
+  color: #fff;
+}
+
+
+/* ---------------------------------------Powered by ------------------------- */
+.black-box{
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height:4.5rem;
+}
+.black-box p{
+  color: #fff;
+}
